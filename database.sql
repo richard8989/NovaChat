@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`) VALUES
-(1, 'admin', 'admin@admin.com', '0192023a7bbd73250516f069df18b500');
+(1, 'admin', 'admin@admin.com', md5('admin123'));
 
 -- --------------------------------------------------------
 
@@ -69,12 +69,6 @@ CREATE TABLE `deleteduser` (
   `deltime` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `deleteduser`
---
-
-INSERT INTO `deleteduser` (`id`, `email`, `deltime`) VALUES
-(21, 'robert@yahoo.com', '2020-11-28 00:48:22');
 
 -- --------------------------------------------------------
 
@@ -108,13 +102,6 @@ CREATE TABLE `users` (
   `last_name` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `email`, `password`, `profile`, `current_session`, `online`, `last_login`, `first_name`, `last_name`) VALUES
-(42, 'bob', 'bob@gmail.com', '25f9e794323b453885f5181f1b624d0b', 'user5.jpg', 43, 1, '2020-12-03 07:50:27', 'Robert', 'Smith'),
-(43, 'ariel', 'ariel@yahoo.com', '25f9e794323b453885f5181f1b624d0b', 'user6.jpg', 42, 1, '2020-12-03 07:52:35', 'Ariel', 'Perez');
 
 --
 -- Indexes for dumped tables
