@@ -8,11 +8,11 @@ This is a repository for a corresponding COP4331 project.
 
 •	The system runs in LAMP stack, so the admin needs to set up the stack.
 
-o	Install LAMP stack on ubuntu click here.
+o	Install LAMP stack on ubuntu.  https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
 
-o	Install XAMPP stack on windows click here.
+o	Install XAMPP stack on windows.  https://pureinfotech.com/install-xampp-windows-10/
 
-o	Install LAMP stack on MAC click here.
+o	Install LAMP stack on MAC.  https://medium.com/@JanFaessler/setup-local-lamp-stack-on-mac-with-homebrew-47eb8d6d53ea
 
 •	Next, it is required that an administrator clones the project from the following GitHub repository:	https://github.com/richard8989/NovaChat
 
