@@ -1,5 +1,6 @@
 # NovaChat
 This is a repository for a corresponding COP4331 project.
+The project consists on a web messaging application.
 
 # Materials Required
 •	The system needs to be implemented with a server-client architecture.
