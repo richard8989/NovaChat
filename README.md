@@ -3,10 +3,15 @@ This is a repository for a corresponding COP4331 project.
 
 # Materials Required
 •	The system needs to be implemented with a server-client architecture.
+
 •	A server architecture with nodes replication(e.g. Kubernetes) is recommended but the system still works in standalone workstations (regular PC).
+
 •	The system runs in LAMP stack, so the admin needs to set up the stack.
+
 o	Install LAMP stack on ubuntu click here.
+
 o	Install XAMPP stack on windows click here.
+
 o	Install LAMP stack on MAC click here.
 
 •	Next, it is required that an administrator clones the project from the following GitHub repository:	https://github.com/richard8989/NovaChat
